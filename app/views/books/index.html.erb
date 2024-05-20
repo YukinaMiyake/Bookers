@@ -5,6 +5,10 @@
     <tr><th>Body</th></tr>
     <tr><td><%= book.title %></td></tr>
     <tr><td><%= book.body %></td></tr>
+    
+    <span><%= link_to book.show, book_path(book.id) %></span>
+    <span><%= link_to book.edit, book_path(book.id) %></span>
+    <span><%= link_to book.destroy, book_paht(book.id) %></span>
   <% end %>
 </table>
 
