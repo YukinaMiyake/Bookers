@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book-body {
+  display: block;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+}
+
+table {
+  border-collapse: separate;
+}
+
+table th {
+  padding: 5px;
+}
+
+table td {
+  padding: 5px;
+}
+
+.error_explanation {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+
